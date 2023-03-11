@@ -1,0 +1,26 @@
+:root
+{
+    /*paleta utilizada https://coolors.co/223843-eff1f3-dbd3d8-d8b4a0-d77a61 */
+    --white: #EFF1F3;
+    --green: #223843;
+    --orange: #D77A61;
+}
+
+@font-face{
+    /*fuente https://fonts.google.com/specimen/Libre+Baskerville? */
+    font-family: 'main-font';
+    src: url('../assets/fonts/LibreBaskerville-Regular.ttf');
+}
+
+body{
+    background: var(--white);
+    color: var(--green);
+    font-family: 'main-font';
+}
+
+.content{
+    display: grid;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
