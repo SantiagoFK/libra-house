@@ -1,7 +1,7 @@
 :root
 {
     /*paleta utilizada https://coolors.co/223843-eff1f3-dbd3d8-d8b4a0-d77a61 */
-    --primary: cornsilk;
+    --primary: white;
     --secondary: #223843;
 }
 
@@ -14,7 +14,7 @@
 body{
     background: var(--primary);
     font-family: 'main-font';
-    text-align: center;
+    font-size: 15px;
 }
 
 /*base*/
@@ -44,21 +44,33 @@ li{
 }
 
 header{
-    background: var(--secondary);
+    border-bottom: 3px solid var(--secondary);
     grid-area: header;
-    color: #fff;
+    color: #000;
 }
 
 nav{
     grid-area: nav;
 }
 
+nav ul li{
+    border: 1px solid black;
+}
+
 main{
     grid-area: main;
 }
 
+main h2{
+    text-align: center;
+}
+
 section{
     grid-area: section;
+}
+
+section h2{
+    text-align: center;
 }
 
 footer{
