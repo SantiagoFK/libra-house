@@ -1,7 +1,7 @@
 :root
 {
     /*paleta utilizada https://coolors.co/223843-eff1f3-dbd3d8-d8b4a0-d77a61 */
-    --primary: white;
+    --primary: cornsilk;
     --secondary: #223843;
 }
 
@@ -30,7 +30,7 @@ li{
 
 .content{
     display: grid;
-    max-width: 98%;
+    max-width: 100%;
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(auto, auto);
@@ -43,11 +43,22 @@ li{
     "footer footer footer footer";
 }
 
+/*header*/
+
 header{
-    border-bottom: 3px solid var(--secondary);
     grid-area: header;
     color: #000;
 }
+
+header h1{
+    border-bottom: 3px solid var(--secondary);
+}
+
+header .banner img{
+    width: 100%;
+}
+
+/*nav*/
 
 nav{
     grid-area: nav;
@@ -57,6 +68,8 @@ nav ul li{
     border: 1px solid black;
 }
 
+/*main*/
+
 main{
     grid-area: main;
 }
@@ -64,6 +77,18 @@ main{
 main h2{
     text-align: center;
 }
+
+main .book-card{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+main .book-card img{
+    width: 100%;
+}
+
+/*section*/
 
 section{
     grid-area: section;
@@ -73,8 +98,17 @@ section h2{
     text-align: center;
 }
 
+section .review-article{
+    border: 1px solid black;
+}
+
+/*footer*/
+
 footer{
     grid-area: footer;
+    height: 150px;
+    background-color: var(--secondary);
+    color: wheat;
 }
 
 
