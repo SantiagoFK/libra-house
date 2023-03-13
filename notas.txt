@@ -1,0 +1,5 @@
+pagina web de una libreria: sistema de gestion
+donde se pueden agregar libros o eliminar (staff)
+y agregar reseñas (usuarios).
+La idea es usar django, html, css, git, github y postgresql (entre otras herramientas).
+La pagina debe ser responsive y mobile-first.

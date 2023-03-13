@@ -1,3 +1,6 @@
+/*icons*/
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
 :root
 {
     /*paleta utilizada https://coolors.co/223843-eff1f3-dbd3d8-d8b4a0-d77a61 */
@@ -9,6 +12,21 @@
     /*fuente https://fonts.google.com/specimen/Libre+Baskerville? */
     font-family: 'main-font';
     src: url('../assets/fonts/LibreBaskerville-Regular.ttf');
+}
+
+/*icons custom*/
+.search-icon{
+    font-size: 2.2em;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.menu-icon{
+    position: absolute;
+    border: 1px solid black;
+    top: 3px;
+    font-size: 2.3em;
+    cursor: pointer;
 }
 
 body{
@@ -51,11 +69,25 @@ header{
 }
 
 header h1{
+    margin:0;
+    padding: 10px 0;
+    font-size: 20px;
     border-bottom: 3px solid var(--secondary);
+    color: white;
+    text-align: center;
+    background-color: #ED6A5A;
 }
 
 header .banner img{
     width: 100%;
+    border-bottom: 3px solid var(--secondary);    
+}
+
+header .search-bar{
+    width: 80%;
+    height: 20px;
+    margin-top: 1.5%;
+    margin-left: 15%;
 }
 
 /*nav*/
