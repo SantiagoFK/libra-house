@@ -109,6 +109,10 @@ main{
     grid-area: main;
 }
 
+main img.img-slider{
+    height: 200px;
+}
+
 main h2{
     text-align: center;
 }
